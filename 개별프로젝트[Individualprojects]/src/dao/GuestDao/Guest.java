@@ -1,4 +1,4 @@
-package DAO연습.GuestDao;
+package dao.GuestDao;
 
 public class Guest {
 

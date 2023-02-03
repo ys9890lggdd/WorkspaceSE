@@ -1,4 +1,4 @@
-package DAO연습.MemberDao;
+package dao.MemberDao;
 /*
 VO(Value Object),DTO(Data Transfer Object)
 	- member 테이블 1개 row의 데이타의 값을 가지는객체

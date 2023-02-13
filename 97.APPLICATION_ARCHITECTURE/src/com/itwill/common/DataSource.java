@@ -5,6 +5,11 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.util.Properties;
 
+/*
+ 데이타베이스 설정정보를 사용해서
+ Connection객체를 생성하고,해지하는 역할을하는 클래스
+ (Dao객체들이 사용하는객체)
+ */
 public class DataSource {
 	/*********데이타베이스접속정보를 저장할필드******/
 	private String driverClass;

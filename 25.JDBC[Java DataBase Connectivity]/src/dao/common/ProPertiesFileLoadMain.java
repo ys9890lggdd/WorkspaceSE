@@ -39,18 +39,18 @@ public class ProPertiesFileLoadMain {
 		 * --------------------------
 		 * url         | jdbc:oracle:thin:@182.237.126.19:1521:xe
 		 * ---------------------------
-		 * user        | jdeveloper14
+		 * user        | jdeveloper30
 		 * ---------------------------
-		 * password    | jdeveloper14 
+		 * password    | jdeveloper30 
 		 */
 		System.out.println("----------- properties.size():"+properties.size()+" ----------------");
 		
 		System.out.println(properties.getProperty("driverClass"));
 		System.out.println(
-				properties.getProperty("url","jdbc:oracle:thin:@182.237.126.19:1521:xe"));
+				properties.getProperty("url","jdbc:oracle:thin:@localhost:1521:xe"));
 	
-		System.out.println(properties.getProperty("user","jdeveloper14"));
-		System.out.println(properties.getProperty("password","jdeveloper14"));
+		System.out.println(properties.getProperty("user","scott"));
+		System.out.println(properties.getProperty("password","tiger"));
 		
 		
 		

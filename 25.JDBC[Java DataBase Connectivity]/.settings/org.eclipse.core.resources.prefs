@@ -1,4 +1,4 @@
 eclipse.preferences.version=1
 encoding//src/dao/member/erd/member_table_create_drop.ddl=MS949
 encoding//src/dao/user/erd/userinfo_table_create_drop.ddl=MS949
-encoding/<project>=UTF-8
+encoding/<project>=x-windows-949
